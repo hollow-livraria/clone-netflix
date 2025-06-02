@@ -6,6 +6,7 @@ export default ({ item }) => {
 
     let firstDate = new Date(item.first_air_date);
     let genres = item.genres.map((genre) => genre.name);
+    
   return (
     <section
       className="featured"
