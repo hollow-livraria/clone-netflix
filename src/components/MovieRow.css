@@ -32,20 +32,24 @@
 }
 
 .movieRow-item img {
+    min-height: 300px; /*isso daqui faz com que todas as imagens dos filmes estejam do mesmo tamanho sem isso algumas imagens estavam ficando menores doq outras e ficava estranho, sla pq 300 inves de 270 lol?*/
+}
+
+.movieRow-item img {
     width: 100%;
     transform: scale(0.9);
     transition: all ease 0.2s;
 }
 
 .movieRow-item img:hover {
-    transform: scale(1);
+    transform: scale(0.95);
 }
 
 .movieRow-left, 
 .movieRow-right {
     position: absolute;
     width: 40px;    
-    height: 325px;
+    height: 300px;
     z-index: 99;
     display: flex;
     align-items: center;
