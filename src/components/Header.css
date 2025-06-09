@@ -25,3 +25,7 @@ header {
     height: 100%;
     border-radius: 3px;
 }
+
+header.black {
+    background-color: black;
+}
